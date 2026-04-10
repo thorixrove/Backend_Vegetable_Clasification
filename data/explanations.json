@@ -1,0 +1,73 @@
+{
+  "species": {
+    "CabaiKeriting": {
+      "nama": "Cabai Keriting",
+      "deskripsi": "Cabai dengan bentuk panjang, ramping, dan permukaan keriting. Umumnya digunakan untuk sambal atau tumisan.",
+      "kandungan": "Vitamin C, Capsaicin, Antioksidan",
+      "tips": "Simpan di tempat kering. Untuk tahan lama, simpan di kulkas dalam wadah tertutup."
+    },
+    "CabaiRawit": {
+      "nama": "Cabai Rawit",
+      "deskripsi": "Cabai berukuran kecil dengan tingkat kepedasan tinggi. Banyak digunakan dalam masakan tradisional.",
+      "kandungan": "Vitamin A, C, E, Mineral",
+      "tips": "Hindari disimpan bersama sayuran lain karena aromanya kuat. Bisa dikeringkan untuk penyimpanan lama."
+    },
+    "KubisHijau": {
+      "nama": "Kubis Hijau",
+      "deskripsi": "Sayuran berdaun lebar berwarna hijau cerah. Tekstur renyah saat mentah, lunak saat dimasak.",
+      "kandungan": "Serat, Vitamin K, Vitamin C, Folat",
+      "tips": "Simpan di kulkas bagian crisper. Jangan dicuci sebelum disimpan agar tidak cepat busuk."
+    },
+    "KubisMerah": {
+      "nama": "Kubis Merah",
+      "deskripsi": "Varian kubis dengan daun berwarna ungu kemerahan. Rasanya sedikit lebih manis dan teksturnya lebih padat.",
+      "kandungan": "Anthocyanin, Vitamin C, Serat",
+      "tips": "Cocok untuk salad atau acar. Simpan di kulkas dengan suhu 4°C untuk menjaga warna."
+    },
+    "TerongGelatikHijau": {
+      "nama": "Terong Gelatik Hijau",
+      "deskripsi": "Terong berukuran kecil bulat berwarna hijau. Sering digunakan dalam pecel atau lalapan.",
+      "kandungan": "Serat, Kalium, Vitamin B6",
+      "tips": "Simpan di suhu ruang jika akan diolah dalam 2 hari. Hindari paparan matahari langsung."
+    },
+    "TerongKopekUngu": {
+      "nama": "Terong Kopek Ungu",
+      "deskripsi": "Terong besar berwarna ungu gelap dengan bentuk lonjong. Daging buah padat dan cocok untuk berbagai masakan.",
+      "kandungan": "Nasunin, Serat, Antioksidan",
+      "tips": "Potong dan rendam air garam 5 menit sebelum dimasak untuk mengurangi rasa pahit."
+    },
+    "TomatCherry": {
+      "nama": "Tomat Cherry",
+      "deskripsi": "Tomat berukuran kecil, bulat, dan manis. Cocok untuk snack, salad, atau hiasan makanan.",
+      "kandungan": "Likopen, Vitamin C, Kalium",
+      "tips": "Simpan di suhu ruang untuk rasa terbaik. Jangan simpan di kulkas jika belum matang."
+    },
+    "TomatRoma": {
+      "nama": "Tomat Roma",
+      "deskripsi": "Tomat berbentuk lonjong dengan daging tebal dan sedikit biji. Ideal untuk saus, pasta, atau sup.",
+      "kandungan": "Likopen, Vitamin A, Serat",
+      "tips": "Simpan di tempat sejuk. Matang sempurna saat warna merah merata dan sedikit empuk saat ditekan."
+    }
+  },
+  "quality": {
+    "CabaiBusuk": { "status": "Busuk", "deskripsi": "Telah mengalami pembusukan. Tekstur lembek, berair, dan mungkin berjamur.", "rekomendasi": "JANGAN dikonsumsi. Segera pisahkan dan buang untuk mencegah penyebaran bakteri." },
+    "CabaiLayu": { "status": "Layu", "deskripsi": "Kehilangan kadar air. Kulit keriput dan tekstur tidak kencang.", "rekomendasi": "Masih bisa diolah. Rendam air dingin 10 menit atau segera masak." },
+    "CabaiMatang": { "status": "Matang", "deskripsi": "Kondisi optimal. Warna cerah, tekstur kencang, dan aroma khas.", "rekomendasi": "Siap dikonsumsi atau diolah. Simpan di kulkas untuk menjaga kesegaran." },
+    "CabaiMuda": { "status": "Muda", "deskripsi": "Belum mencapai kematangan penuh. Warna hijau, tekstur keras, rasa lebih pedas/sepat.", "rekomendasi": "Cocok untuk acar atau tumis. Simpan suhu ruang 1-2 hari agar matang alami." },
+    
+    "KubisBusuk": { "status": "Busuk", "deskripsi": "Daun berubah coklat/hitam, lembek, dan berbau tidak sedap.", "rekomendasi": "Buang seluruhnya. Pembusukan kubis menyebar cepat ke bagian dalam." },
+    "KubisLayu": { "status": "Layu", "deskripsi": "Daun tidak kencang, permukaan keriput, kehilangan kesegaran.", "rekomendasi": "Rendam air es 15 menit untuk mengembalikan tekstur. Segera olah." },
+    "KubisMatang": { "status": "Matang", "deskripsi": "Daun rapat, kencang, warna cerah. Kualitas nutrisi maksimal.", "rekomendasi": "Siap digunakan. Simpan di kulkas dalam wadah kedap udara." },
+    "KubisMuda": { "status": "Muda", "deskripsi": "Daun lebih lembut, ukuran lebih kecil, rasa manis alami.", "rekomendasi": "Cocok untuk salad atau tumis cepat. Jangan masak terlalu lama." },
+
+    "TerongBusuk": { "status": "Busuk", "deskripsi": "Permukaan lembek, berair, warna kusam/coklat.", "rekomendasi": "Jangan dikonsumsi. Terong busuk cepat mengeluarkan bakteri." },
+    "TerongLayu": { "status": "Layu", "deskripsi": "Kulit keriput, batang mengering, tekstur kurang padat.", "rekomendasi": "Segera olah. Rendam air garam sebelum dimasak." },
+    "TerongMatang": { "status": "Matang", "deskripsi": "Warna hijau/ungu mengkilap, tekstur padat, batang segar.", "rekomendasi": "Siap dimasak. Hindari memotong terlalu lama sebelum diolah agar tidak berubah warna." },
+    "TerongMuda": { "status": "Muda", "deskripsi": "Warna hijau/ungu muda, tekstur sangat keras, biji belum terbentuk.", "rekomendasi": "Cocok untuk sayur lodeh atau gulai. Masak lebih lama hingga empuk." },
+
+    "TomatBusuk": { "status": "Busuk", "deskripsi": "Tekstur sangat lembek, kulit pecah, berbau asam/busuk.", "rekomendasi": "BUANG SEGERA. Konsumsi tomat busuk berisiko keracunan makanan." },
+    "TomatLayu": { "status": "Layu", "deskripsi": "Kulit keriput, tidak mengkilap, tekstur kurang kencang.", "rekomendasi": "Cocok untuk saus atau sup. Tidak disarankan untuk lalapan." },
+    "TomatMatang": { "status": "Matang", "deskripsi": "Warna merah/oranye merata, tekstur kencang tapi tidak keras.", "rekomendasi": "Siap dikonsumsi mentah atau diolah. Kaya likopen dan vitamin C." },
+    "TomatMuda": { "status": "Muda", "deskripsi": "Warna hijau, tekstur keras, rasa asam/sepat.", "rekomendasi": "Cocok untuk rujak atau asinan. Simpan suhu ruang untuk pematangan." }
+  }
+}
